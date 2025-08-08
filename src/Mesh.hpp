@@ -13,7 +13,7 @@ public:
     // Getteur 
     const std::vector<glm::vec3>& getVertices() const {return vertices;}
     const std::vector<glm::vec3>& getNormals() const {return normals;}
-    const std::vector<glm::vec3>& getFaceNormals() const { return faceNormals; }
+    const std::vector<glm::vec3>& getFaceNormals() const {return faceNormals;}
     const std::vector<unsigned int>& getIndices() const {return indices;}
 
     // init d'un mesh
