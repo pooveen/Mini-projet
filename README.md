@@ -22,3 +22,10 @@ Autre projet :
 
 - un moteur de géométrie 2D
 - un moteur de ray tracing
+
+rm -rf build
+mkdir build
+cd build
+cmake ..
+make
+./Mini3DViewer
