@@ -24,7 +24,9 @@ link_directories(${GLFW_LIBRARY_DIRS})
 set(SOURCES_CPP
     src/main.cpp
     src/Mesh.cpp
+    src/Shader.cpp
     src/Renderer.cpp
+    src/Camera.cpp
 )
 
 # Précision de quel fichier .c doit être compilé.
